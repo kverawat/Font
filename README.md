@@ -1,25 +1,26 @@
+Forked from https://github.com/beichensky/Font
 
-# `Font` 字体
+# `Font` ตัวอักษรที่ใช้สำหรับ VSCode (แสดงผลคู่กับภาษาไทยได้ขนาดที่เหมาะสม)
 
-- `FiraCode`
+- `FiraCode` (v.1.207) --- OK แม้ว่าจะเป็น version เก่า แต่ขนาดเหมาะสมกว่าตอนที่ใช้ v.5 ในปี 2020
 
-- `Operator Mono`
+- `Operator Mono` (v.1.2) --- ยังไม่ค่อย OK แม้ว่าจะเหมาะสมกับ indent space 2 แต่ภาษาอังกฤษยังอ่านยากไป
 
 - `Operator Mono Lig`
 
-- `Operator Mono SSm`
+- `Operator Mono SSm` (v.1.2) --- OK ขนาดเหมาะสมกว่า Operator SSm ปกติ เพราะสัดส่วนเหมาะกับ indent space 2
 
 ## `FiraCode`
 
 **[FiraCode](https://github.com/beichensky/Font/tree/master/FiraCode)**
 
-等宽字体
+ตัวอักษรแบบโมโนสเปซ
 
 ## `Operator Mono`
 
-**[Operator Mono](https://github.com/beichensky/Font/tree/master/Operator%20Mono)**
+**[Operator Mono](https://github.com/kverawat/Font/tree/master/Operator%20Mono)**
 
-可以使用连体字，安装 `Operator Mono` 字体 之前需要先安装 `FiraCode` 字体
+เราสามารถใช้คุณสมบัติ ligatures ได้ โดยติดตั้ง font `Operator Mono` ก่อนที่จะติดตั้ง font `FiraCode`
 
 ## `Operator Mono Lig`
 
@@ -29,12 +30,12 @@
 
 **`Operator Mono SSm`**
 
-## 资源下载
+## ดาวน์โหลด
 
 ``` bash
-git clone https://github.com/beichensky/Font.git
+git clone https://github.com/kverawat/Font.git
 ```
 
-## 字体安装及在 `VSCode` 中配置
+## การติดตั้งแบบอักษรและการกำหนดค่าใน `VSCode` configulation
 
-可参考我的博客：[为 `VSCode` 设置好看的字体：`Operator Mono`](https://blog.csdn.net/zgd826237710/article/details/94137781#_19)
+สำหรับวิธีการติดตั้ง font แบบแยกเดี่ยว ๆ หรือจะติดตั้งแล้ว config VSCode ให้ใช้ร่วมกันได้ทั้ง Fira Code และ Operator Mono สามารถอ้างถึงบล็อกของคนที่ผม Forked บอกวิธีการที่เขาได้ Post บอกไว้ได้ที่ ：[Set a nice font for VSCode: Operator Mono](https://blog.csdn.net/zgd826237710/article/details/94137781#_19)
